@@ -5,7 +5,7 @@ import { Fade } from "@stahl.luke/react-reveal";
 function Section(props) {
   return (
     <Wrap bgImage={props.backgroundImg}>
-      <Fade bottpm>
+      <Fade bottom>
         <ItemText>
           <h1>{props.title}</h1>
           <p>{props.description}</p>
